@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Himanshu Sen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!--Google Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&amp;subset=latin,cyrillic' rel='stylesheet'
+    type='text/css'>
+  <!--Bootstrap-->
+  <link href="bootstrap.css" rel="stylesheet" media="screen">
+  <!-- Custom styles -->
+  <link href="custom.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="himanshu.css">
+  <link href="animations.css" rel="stylesheet" media="screen">
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+  <!-- Modernizr -->
+  <script src="modernizr.custom.js"></script>
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
+</head>
+
+<!--Body-->
+
+<body>
+  <div id="pt-main" class="pt-perspective">
+
+    <!--Home Screen-->
+    <article class="pt-page pt-page-1" id="home">
+      <div class="outer-wrapper white-bg">
+        <!--Header-->
+        <header class="row-fluid">
+          <div class="container">
+            <div class="span8 logo">
+              <h1 class="dark">Himanshu Sen</h1>
+              <!-- <p class="dark">(Software Engineer)</p> -->
+            </div>
+            <div class="span4">
+              <ul class="social-bar-black">
+                <li><a class="" href="https://www.codechef.com/users/himanshu0124" title="CodeChef" target="_blank"><i
+                      class="fas fa-code"></i></a></li>
+                <li><a class="" href="https://www.hackerrank.com/himanshu_sen0124" title="HackerRank" target="_blank"><i
+                      class="fab fa-hackerrank"></i></a></li>
+                <li><a class="" href="https://www.linkedin.com/in/himanshu-sen-3b955b114" title="LinkedIn"
+                    target="_blank"><i class="fab fa-linkedin"></i></a></li>
+
+              </ul>
+            </div>
+          </div>
+        </header> 
+         <!--Navigation-->
+        <nav class="navi row-fluid">
+          <div class="container">
+            <div class="span12 clearfix">
+              <div class="span4" id="myBtnWorks" onclick="change_text()">
+                <a class="middle-navi contacts" href="#">
+                  <i class="navi-icons works-icon"></i>My Work</a>
+              </div>
+              <div class="span4">
+                <a href="https://drive.google.com/file/d/1L3z2bHBza_F7Ocbpnq8z1M_GsOcOvBsH/view?usp=sharing"
+                  class="middle-navi contacts" title="Open In New Tab" target="_blank"><i
+                    class="navi-icons resume-icon"></i>Resume</a>
+                <!-- <a class="middle-navi contacts page-transition" href="#" target="_blank"  >
+                <i class="navi-icons resume-icon"></i>Resume</a> -->
+              </div>
+              <div class="span4" id="myBtn">
+                <a class="middle-navi contacts " href="#"><i class="navi-icons contacts-icon"></i>Contacts</a>
+              </div>
+
+              <!-- The Contact Modal -->
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Contact</h2>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-12" id="emailModal">
+                          <span> <i class="fas fa-envelope" style="color: #18a6be;"></i>
+                            Himanshu.sen0124@gmail.com</span>
+                        </div>
+                        <div class="col-lg-12" id="emailModal">
+                          <span> <i class="fab fa-whatsapp-square" style="color: #5cb85c;"></i> +91-9990401218</span>
+                        </div>
+                        <!-- <i class="fas fa-home"></i> -->
+                        <div class="col-lg-12" id="emailModal">
+                          <span> <i class="fas fa-birthday-cake" style="color: #c2ca55;"></i> September - 1996</span>
+                        </div>
+                        <div class="col-lg-12" id="emailModal">
+                          <span> <i class="fas fa-home" style="color: #3f59cc;"></i> Gurgaon , Haryana</span>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <h3></h3>
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </nav>
+
+        <section class="container" id="demo">
+          <div class="clearfix">
+            <div class="tw-feed">
+              <p>Hello EveryOne.I am Himanshu Sen.I live in Gurugram (Haryana). I have done my graduation(Bachelor in
+                Computer Application )from Guru Gobind Singh Indraprastha University and Now ,Currently I am pursuing my
+                Master's degree(Master in Computer Application) from Gurugram University. I have a huge interest in Data
+                Structure & Algorithm , Web Development with using Javascript Framework and also in Competetive
+                Programming.If you want to know more about me Click on my Resume.</p>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="container hidden" id="work">
+          <div class="clearfix">
+            <div class="tw-feed1">
+            <div class="rowCard">
+
+              <div class="columnCard">
+                <div class="card">  
+                  <i class="fas fa-cloud" id="workIcon"></i>
+                  <p>Weather App Using NodeJs and Express js and also use the <b>Open WeatherMap API</b>.
+                    </p> 
+                    <a href="https://himanshu0124.github.io/WeatherApp/" class="btn btn-primary" target="_blank">View App</a>
+                </div>
+              </div>
+
+              <div class="columnCard">
+                <div class="card">
+                  <i class="fas fa-music" id="workIcon1"></i>
+                  <p>Music App Using. Technologies Which I used<b> (HTML,CSS,JavaScript)</b>.</p> 
+                  <a href="https://himanshu0124.github.io/MusicPlayer/index.html" class="btn btn-primary" target="_blank">View App</a>
+                </div>
+              </div>
+
+              <div class="columnCard">
+                <div class="card"> 
+                  <i class="fas fa-drum-steelpan" id="workIcon2"></i>
+                  <p>Snake App Using. Technologies Which I used<b> (HTML,CSS,JavaScript)</b>.</p> 
+                  <a href="https://himanshu0124.github.io/snake/" class="btn btn-primary" target="_blank">View App</a>
+                </div>
+              </div>
+
+
+              <div class="columnCard" style="padding-top: -10px;">
+               
+                  <i class="fas fa-arrow-circle-left" id="workIcon3"> 
+                  <a href="index.html" class="btn btn-primary" style="text-decoration: none;">Go to Home</a></i>
+               
+              </div>
+
+
+            </div>
+            </div>
+
+          </div>
+        </section>
+        <div class="push">
+
+        </div> 
+      </div>
+      <!--Footer-->
+      <footer>
+        <div class="container">
+          <p class="dark">Made By &copy; HIMANSHU SEN</p>
+        </div>
+      </footer>
+    </article>
+  </div>
+  <!-- jQuery -->
+  <script src="jquery.js"></script>
+  <script src="pagetransitions.js" type="text/javascript"></script>
+  <script src="grid.js"></script>
+  <script src="scripts.js"></script>
+  
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+ 
+ <script>
+  function change_text(){
+      // var name = document.getElementById("name").value; 
+      var element = document.getElementById("work");
+      element.classList.remove("hidden");
+      document.getElementById("demo").replaceWith("work");  
+  }
+  </script>
+
+
+</body>
+
+</html>
